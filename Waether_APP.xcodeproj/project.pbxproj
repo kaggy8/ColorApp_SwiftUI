@@ -11,6 +11,10 @@
 		543EA2C62997BCA700FF501D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543EA2C52997BCA700FF501D /* ContentView.swift */; };
 		543EA2C82997BCA800FF501D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 543EA2C72997BCA800FF501D /* Assets.xcassets */; };
 		543EA2CB2997BCA800FF501D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 543EA2CA2997BCA800FF501D /* Preview Assets.xcassets */; };
+		543EA2D42997FFEB00FF501D /* DisplayColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543EA2D32997FFEB00FF501D /* DisplayColor.swift */; };
+		543EA2D6299823DC00FF501D /* TextLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543EA2D5299823DC00FF501D /* TextLabel.swift */; };
+		543EA2D82998243700FF501D /* SliderColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543EA2D72998243700FF501D /* SliderColor.swift */; };
+		543EA2DA2998282000FF501D /* TextFieldColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543EA2D92998282000FF501D /* TextFieldColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		543EA2C52997BCA700FF501D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		543EA2C72997BCA800FF501D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		543EA2CA2997BCA800FF501D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		543EA2D32997FFEB00FF501D /* DisplayColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayColor.swift; sourceTree = "<group>"; };
+		543EA2D5299823DC00FF501D /* TextLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLabel.swift; sourceTree = "<group>"; };
+		543EA2D72998243700FF501D /* SliderColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderColor.swift; sourceTree = "<group>"; };
+		543EA2D92998282000FF501D /* TextFieldColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				543EA2C32997BCA700FF501D /* Waether_APPApp.swift */,
 				543EA2C52997BCA700FF501D /* ContentView.swift */,
+				543EA2D32997FFEB00FF501D /* DisplayColor.swift */,
+				543EA2D5299823DC00FF501D /* TextLabel.swift */,
+				543EA2D72998243700FF501D /* SliderColor.swift */,
+				543EA2D92998282000FF501D /* TextFieldColor.swift */,
 				543EA2C72997BCA800FF501D /* Assets.xcassets */,
 				543EA2C92997BCA800FF501D /* Preview Content */,
 			);
@@ -138,7 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				543EA2C62997BCA700FF501D /* ContentView.swift in Sources */,
+				543EA2D42997FFEB00FF501D /* DisplayColor.swift in Sources */,
 				543EA2C42997BCA700FF501D /* Waether_APPApp.swift in Sources */,
+				543EA2DA2998282000FF501D /* TextFieldColor.swift in Sources */,
+				543EA2D82998243700FF501D /* SliderColor.swift in Sources */,
+				543EA2D6299823DC00FF501D /* TextLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
